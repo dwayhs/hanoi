@@ -21,4 +21,22 @@ layout: default
   </div>
 
   <div class='base'></div>
+
+  <div class='links'>
+    <div class='links-stick links-stick--a'>
+      {% for link in page.links.s1 %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+    <div class='links-stick links-stick--b'>
+      {% for link in page.links.s2 %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+    <div class='links-stick links-stick--c'>
+      {% for link in page.links.s3 %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
 </div>

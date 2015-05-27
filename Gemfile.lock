@@ -175,5 +175,6 @@ DEPENDENCIES
   capybara
   cucumber
   github-pages
+  jekyll
   poltergeist
   rspec

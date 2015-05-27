@@ -1,3 +1,6 @@
+language: ruby
+install:
+  - bundle install
 before_script:
   - bundle exec jekyll serve --detach
   - sleep 3 # give Web server some time to bind to sockets, etc

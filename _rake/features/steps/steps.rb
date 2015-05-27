@@ -26,3 +26,13 @@ Then(/^I should see link "([^"]*)" in "([^"]*)"$/) do |link, button_area|
     page.should have_content(link)
   end
 end
+
+When(/^I click on "([^"]*)" in "([^"]*)"$/) do |link, button_area|
+  within(:css, button_area) do
+    click_link link
+  end
+end
+
+Then(/^I should be on "([^"]*)"$/) do |path|
+  current_path.should eq path
+end

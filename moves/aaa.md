@@ -6,7 +6,7 @@ disks:
   d3: 'a'
 links:
   s1:
-    - url: '/moves/baa'
+    - url: '/moves/baa/'
       label: '>'
   s2:
   s3:

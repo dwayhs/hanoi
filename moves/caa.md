@@ -1,8 +1,8 @@
 ---
 layout: moves
 disks:
-  d1: 'a'
+  d1: 'c'
   d2: 'a'
   d3: 'a'
-permalink: /moves/aaa/
+permalink: /moves/caa/
 ---

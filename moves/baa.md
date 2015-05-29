@@ -15,8 +15,4 @@ links:
     - url: '/moves/caa/'
       label: '>'
   s3:
-
-
-
-
 ---

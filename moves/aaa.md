@@ -11,7 +11,4 @@ links:
   s2:
   s3:
 permalink: /moves/aaa/
-
-
-
 ---

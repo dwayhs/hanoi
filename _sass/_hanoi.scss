@@ -43,6 +43,17 @@
 
   }
 
+  .links {
+    position: absolute;
+    top: 84px;
+
+    .links-stick {
+      display: inline-block;
+      width: 100px;
+      text-align: center;
+    }
+  }
+
   .base {
     background-color: #f00;
     width: 300px;

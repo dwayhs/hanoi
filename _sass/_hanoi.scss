@@ -3,44 +3,47 @@
 
   .stick {
     background-color: #f00;
-    width: 4px;
-    height: 80px;
+    width: 80px;
+    height: 100px;
     position: absolute;
-    top: 0;
+    left: 4px;
+    float: left;
+    border: 1px solid #ff0;
   }
 
   .stick--a {
-    left: 48px;
+    top: 0;
   }
 
   .stick--b {
-    left: 148px;
+    top: 100px;
   }
 
   .stick--c {
-    left: 248px;
+    top: 200px;
   }
 
   .disk {
-    height: 4px;
-    transform: translate(-50%, 0);
+    width: 4px;
     display: inline-block;
   }
 
   .disk--1{
     background-color: #f0f;
-    width: 30px;
+    height: 30%;
+    top: 35%;
   }
 
   .disk--2 {
     background-color: #0f0;
-    width: 50px;
+    height: 50%;
+    top: 25%;
   }
 
   .disk--3 {
     background-color: #00f;
-    width: 70px;
-
+    height: 70%;
+    top: 15%;
   }
 
   .links {
@@ -56,9 +59,10 @@
 
   .base {
     background-color: #f00;
-    width: 300px;
-    height: 4px;
+    width: 4px;
+    height: 300px;
     position: absolute;
-    top: 80px;
+    top: 0;
+    left: 0;
   }
 }

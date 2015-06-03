@@ -3,21 +3,21 @@ layout: default
 ---
 <div class='hanoi'>
   <div class='stick stick--a'>
-    {% if page.disks.d1 == 'a' %}<div class='disk disk--1'></div>{% endif %}
-    {% if page.disks.d2 == 'a' %}<div class='disk disk--2'></div>{% endif %}
     {% if page.disks.d3 == 'a' %}<div class='disk disk--3'></div>{% endif %}
+    {% if page.disks.d2 == 'a' %}<div class='disk disk--2'></div>{% endif %}
+    {% if page.disks.d1 == 'a' %}<div class='disk disk--1'></div>{% endif %}
   </div>
 
   <div class='stick stick--b'>
-    {% if page.disks.d1 == 'b' %}<div class='disk disk--1'></div>{% endif %}
-    {% if page.disks.d2 == 'b' %}<div class='disk disk--2'></div>{% endif %}
     {% if page.disks.d3 == 'b' %}<div class='disk disk--3'></div>{% endif %}
+    {% if page.disks.d2 == 'b' %}<div class='disk disk--2'></div>{% endif %}
+    {% if page.disks.d1 == 'b' %}<div class='disk disk--1'></div>{% endif %}
   </div>
 
   <div class='stick stick--c'>
-    {% if page.disks.d1 == 'c' %}<div class='disk disk--1'></div>{% endif %}
-    {% if page.disks.d2 == 'c' %}<div class='disk disk--2'></div>{% endif %}
     {% if page.disks.d3 == 'c' %}<div class='disk disk--3'></div>{% endif %}
+    {% if page.disks.d2 == 'c' %}<div class='disk disk--2'></div>{% endif %}
+    {% if page.disks.d1 == 'c' %}<div class='disk disk--1'></div>{% endif %}
   </div>
 
   <div class='base'></div>
